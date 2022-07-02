@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    }
+    body{
+    font-family: "roboto" sans-serif;
+    }
+    .nav{
+    position: absolute;
+    width: 1440px;
+    height: 71px;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+    } 
+    .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    } 
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .nav-items{
+    position: relative;
+    } 
+    nav ul{
+    display: flex;
+    }
+    /* .logo{
+    position: absolute;
+    left:6px ;
+    top: 10px;
+    } */
+    .nav-items li{
+    list-style: none;
+    margin-right: 100px;
+    }
+    .nav-items li:nth-last-of-type(1){
+    margin: 0;
+    }
+    .nav-items li a{
+    height: 29px;
+    top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    color: #5F0F40;
+    text-decoration: none;
+    }
+    .text{
+    position: absolute;
+    width: 197px;
+    height: 39px;
+    left: 189px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #5F0F40;
+    }
+    .container2
+    {
+    position: absolute;
+    width: 1440px;
+    height: 379px;
+    left: 0px;
+    top: 71px;
+    background: rgba(217, 217, 217, 0.1);
+    }
+    .aboutus2
+    {
+    position: absolute;
+    width: 310px;
+    height: 78px;
+    left: 565px;
+    top: 222px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #5F0F40;
+    }
+    .ourmission
+    {
+    position: absolute;
+    width: 245px;
+    height: 49px;
+    left: 94px;
+    top: 562px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    }
+    .mission2
+    {
+    position: absolute;
+    width: 243px;
+    height: 24px;
+    left: 96px;
+    top: 641px;
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #80004E;
+    }
+    .environment
+    {
+    position: absolute;
+    width: 602px;
+    height: 156px;
+    left: 762px;
+    top: 532px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #5F0F40;
+    }
+    .mission3
+    {
+    position: absolute;
+    width: 602px;
+    height: 78px;
+    left: 94px;
+    top: 792px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #5F0F40;
+    }
+    .vision
+    {
+    position: absolute;
+    width: 215px;
+    height: 49px;
+    left: 1126px;
+    top: 775px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    }
+    .vision2
+    {
+    position: absolute;
+    width: 213px;
+    height: 24px;
+    left: 1126px;
+    top: 844px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #80004E;
+    }
+    .container3
+    {
+    position: absolute;
+    width: 1440px;
+    height: 450px;
+    left: 0px;
+    top: 1020px;
+    background: #5F0F40;
+    }
+    .leaders
+    {
+    position: absolute;
+    width: 447px;
+    height: 59px;
+    left: 497px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: rgba(255, 255, 255, 1);
+    } 
+    .garfield{
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 126px;
+    top: 123px; 
+    background: #5F0F40;
+    border-radius: 90px;
+    }
+    .gar{
+    position: absolute;
+    width: 79px;
+    height: 24px;
+    left: 178px;
+    top: 309px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .beomafav{
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left:377px;
+    top: 123px;
+    background:#5F0F40;
+    border-radius: 90px;
+    }
+    .beo{
+    position: absolute;
+    width: 102px;
+    height: 24px;
+    left: 418px;
+    top: 309px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .drey{
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 628px;
+    top: 123px;
+    background:#5F0F40;
+    border-radius: 90px;
+    }
+    .dreyy{
+      position: absolute;
+      width: 48px;
+      height: 24px;
+      left: 696px;
+      top: 309px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .amanda{
+      position: absolute;
+      width: 184px;
+      height: 184px;
+      left: 879px;
+      top: 123px;
+      background:#5F0F40;
+      border-radius: 90px;
+    }
+    .girl{
+      position: absolute;
+      width: 87px;
+      height: 24px;
+      left: 927px;
+      top: 309px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .daniel{
+      position: absolute;
+      width: 184px;
+      height: 184px;
+      left: 1130px;
+      top: 123px;
+      background:#5F0F40;
+      border-radius: 90px;
+    }
+    .dan{
+      position: absolute;
+      width: 65px;
+      height: 24px;
+      left: 1189px;
+      top: 309px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .btn{
+      margin-top: 350px;
+      border: none;
+      padding: 10px;
+      border-radius: 15px;
+      cursor: pointer;
+      color: rgba(95, 15, 64, 1);
+      font: 1.2em;
+      left: 650px;
+      position:absolute ;
+    }
+    .social{
+      height: 50px;
+      position: absolute;
+      width: 447px;
+      height: 59px;
+      /* top: 1700px; */
+    } 
+    .image{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 150px;
+    top: 1550px;
+    }
+    .textt{
+      position: absolute;
+      width: 197px;
+      height: 39px;
+      left: 210px;
+      top: 1550px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #5F0F40;
+    }
+    .grow{
+    position: absolute;
+    Width:307px;
+    Height:24px;
+    Top:1605px;
+    Left: 150px;
+    color: #5F0F40;
+    }
+    .list{
+      position: absolute;
+      top: 1650px;
+      left: 150px;
+      list-style: none;
+      /* justify-content: space-evenly; */
+    }
+    .face{
+      background: #AFAFAF;
+    }
+    .you{
+      width: auto;
+      background: linear-gradient(180deg, #747474 0%, #747474 100.03%);
+    }
+    .link{
+      background: #A7A7A7;
+    }
+    .vec{
+      
+      
+    }
+    .twi{
+      background: #FFFFFF; 
+    }
+    .app{
+      position: absolute;
+      top: 1550px; 
+      left: 600px;
+      color: rgba(95, 15, 64, 1);
+    }
+    .play{
+      position: absolute;
+      top: 1600px;
+      left:600px ;
+    }
+    .sto{
+    position: absolute;
+    top: 1650px;
+    left: 600px;
+    }
+    .part{
+      position: absolute;
+      top: 1550px;
+      left: 1270px;
+      color: rgba(95, 15, 64, 1);
+    }
