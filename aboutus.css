@@ -79,9 +79,10 @@
     top: 222px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+    font-weight: 70px;
+    font-size: 140px;
+    line-height: 64px;
+    white-space: nowrap;
     color: #5F0F40;
     }
     .ourmission
